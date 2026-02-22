@@ -11,10 +11,6 @@
       "src": "/api/tmdb/(.*)",
       "dest": "/api/tmdb/[...params].js"
     }
-  ],
-    "functions": {
-    "api/tmdb/[...params].js": {
-      "regions": ["hkg1"]
-    }
+  ]
   }
 }
