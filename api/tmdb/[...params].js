@@ -29,6 +29,7 @@ export default async function handler(req, res) {
       headers: {
         Authorization: `Bearer ${process.env.TMDB_ACCESS_TOKEN}`,
         accept: "application/json",
+        'X-Forwarded-Host': 'api.themoviedb.org',
       },
     });
 
